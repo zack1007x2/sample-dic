@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sendcontext</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_text">Share Text</string>
+    <string name="action_Img">Share Image</string>
+    <string name="action_video">Share Video</string>
+</resources>
