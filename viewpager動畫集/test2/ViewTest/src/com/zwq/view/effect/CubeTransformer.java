@@ -1,4 +1,4 @@
-package com.zwq.view.effect;
+ï»¿package com.zwq.view.effect;
 
 import com.nineoldandroids.view.ViewHelper;
 
@@ -8,23 +8,23 @@ import android.view.View;
 public class CubeTransformer implements PageTransformer {
 	
 	/**
-	 * position²ÎÊýÖ¸Ã÷¸ø¶¨Ò³ÃæÏà¶ÔÓÚÆÁÄ»ÖÐÐÄµÄÎ»ÖÃ¡£ËüÊÇÒ»¸ö¶¯Ì¬ÊôÐÔ£¬»áËæ×ÅÒ³ÃæµÄ¹ö¶¯¶ø¸Ä±ä¡£µ±Ò»¸öÒ³ÃæÌî³äÕû¸öÆÁÄ»ÊÇ£¬ËüµÄÖµÊÇ0£¬
-	 * µ±Ò»¸öÒ³Ãæ¸Õ¸ÕÀë¿ªÆÁÄ»µÄÓÒ±ßÊ±£¬ËüµÄÖµÊÇ1¡£µ±Á½¸öÒ²Ò³Ãæ·Ö±ð¹ö¶¯µ½Ò»°ëÊ±£¬ÆäÖÐÒ»¸öÒ³ÃæµÄÎ»ÖÃÊÇ-0.5£¬ÁíÒ»¸öÒ³ÃæµÄÎ»ÖÃÊÇ0.5¡£»ùÓÚÆÁÄ»ÉÏÒ³ÃæµÄÎ»ÖÃ
-	 * £¬Í¨¹ýÊ¹ÓÃÖîÈçsetAlpha()¡¢setTranslationX()¡¢»òsetScaleY()·½·¨À´ÉèÖÃÒ³ÃæµÄÊôÐÔ£¬À´´´½¨×Ô¶¨ÒåµÄ»¬¶¯¶¯»­¡£
+	 * positionåƒæ•¸æŒ‡æ˜Žçµ¦å®šé é¢ç›¸å°æ–¼å±å¹•ä¸­å¿ƒçš„ä½ç½®ã€‚å®ƒæ˜¯ä¸€å€‹å‹•æ…‹å±¬æ€§ï¼Œæœƒéš¨è‘—é é¢çš„æ»¾å‹•è€Œæ”¹è®Šã€‚ç•¶ä¸€å€‹é é¢å¡«å……æ•´å€‹å±å¹•æ˜¯ï¼Œå®ƒçš„å€¼æ˜¯0ï¼Œ
+	 * ç•¶ä¸€å€‹é é¢å‰›å‰›é›¢é–‹å±å¹•çš„å³é‚Šæ™‚ï¼Œå®ƒçš„å€¼æ˜¯1ã€‚ç•¶å…©å€‹ä¹Ÿé é¢åˆ†åˆ¥æ»¾å‹•åˆ°ä¸€åŠæ™‚ï¼Œå…¶ä¸­ä¸€å€‹é é¢çš„ä½ç½®æ˜¯-0.5ï¼Œå¦ä¸€å€‹é é¢çš„ä½ç½®æ˜¯0.5ã€‚åŸºäºŽå±å¹•ä¸Šé é¢çš„ä½ç½®
+	 * ï¼Œé€šéŽä½¿ç”¨è«¸å¦‚setAlpha()ã€setTranslationX()ã€æˆ–setScaleY()æ–¹æ³•ä¾†è¨­ç½®é é¢çš„å±¬æ€§ï¼Œä¾†å‰µå»ºè‡ªå®šç¾©çš„æ»‘å‹•å‹•ç•«ã€‚
 	 */
 	@Override
 	public void transformPage(View view, float position) {
 		if (position <= 0) {
-			//´ÓÓÒÏò×ó»¬¶¯Îªµ±Ç°View
+			//å¾žå³å‘å·¦æ»‘å‹•ç‚ºç•¶å‰View
 			
-			//ÉèÖÃÐý×ªÖÐÐÄµã£»
+			//è¨­ç½®æ—‹è½‰ä¸­å¿ƒé»žï¼›
 			ViewHelper.setPivotX(view, view.getMeasuredWidth());
 			ViewHelper.setPivotY(view, view.getMeasuredHeight() * 0.5f);
 			
-			//Ö»ÔÚYÖá×öÐý×ª²Ù×÷
+			//åªåœ¨Yè»¸åšæ—‹è½‰æ“ä½œ
 			ViewHelper.setRotationY(view, 90f * position);
 		} else if (position <= 1) {
-			//´Ó×óÏòÓÒ»¬¶¯Îªµ±Ç°View
+			//å¾žå·¦å‘å³æ»‘å‹•ç‚ºç•¶å‰View
 			ViewHelper.setPivotX(view, 0);
 			ViewHelper.setPivotY(view, view.getMeasuredHeight() * 0.5f);
 			ViewHelper.setRotationY(view, 90f * position);

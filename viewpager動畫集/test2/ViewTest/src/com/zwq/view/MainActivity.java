@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 			R.drawable.icon_3, R.drawable.icon_4, R.drawable.icon_5,
 			R.drawable.icon_6, R.drawable.icon_7, R.drawable.icon_8,
 			R.drawable.icon_9, R.drawable.icon_10, };
-	String[] effectType = { "Ä¬ÈÏ", "ÉîÈëÇ³³ö", "Á¢·½Ìå", "Ğı×ª","×óÓÒÕÛµş", "ÓÒÉÏ½Ç½øÈë" , "ÓÒÏÂ½Ç½øÈë", "µ­Èëµ­³ö"};
+	String[] effectType = { "é»˜èª", "æ·±å…¥æ·ºå‡º", "ç«‹æ–¹é«”", "æ—‹è½‰","å·¦å³æŠ˜ç–Š", "å³ä¸Šè§’é€²å…¥" , "å³ä¸‹è§’é€²å…¥", "æ·¡å…¥æ·¡å‡º"};
 
 	Spinner mSpinner;
 	ListView g=null;

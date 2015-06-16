@@ -1,4 +1,4 @@
-package com.zwq.view.effect;
+ï»¿package com.zwq.view.effect;
 
 import android.support.v4.view.ViewPager.PageTransformer;
 import android.view.View;
@@ -8,10 +8,10 @@ import com.nineoldandroids.view.ViewHelper;
 public class RotateTransformer implements PageTransformer {
 
 	/**
-	 * pageµ±È»ÖµµÃ¾ÍÊÇ»¬¶¯ÖĞµÂÄÇ¸öview£¬positionÕâÀïÊÇfloat£¬²»ÊÇÆ½Ê±Àí½âµÄintÎ»ÖÃĞÅÏ¢£¬¶øÊÇµ±Ç°»¬¶¯×´Ì¬µÄÒ»¸ö±íÊ¾£¬
-	 * ±ÈÈçµ±»¬¶¯µ½ÕıÈ«ÆÁÊ±
-	 * £¬positionÊÇ0£¬¶øÏò×ó»¬¶¯£¬Ê¹µÃÓÒ±ß¸ÕºÃÓĞÒ»²¿±»½øÈëÆÁÄ»Ê±£¬positionÊÇ1£¬Èç¹ûÇ°Ò»Ò¹ºÍÏÂÒ»Ò³»ù±¾¸÷ÔÚÆÁÄ»Õ¼Ò»°ëÊ±
-	 * £¬Ç°Ò»Ò³µÄpositionÊÇ-0.5£¬ºóÒ»Ò³µÄposiotnÊÇ0.5£¬ËùÒÔ¸ù¾İpositionµÄÖµÎÒÃÇ¾Í¿ÉÒÔ×ÔĞĞÉèÖÃĞèÒªµÄalpha£¬x/yĞÅÏ¢¡£
+	 * pageç•¶ç„¶å€¼å¾—å°±æ˜¯æ»‘å‹•ä¸­å¾·é‚£å€‹viewï¼Œpositioné€™è£¡æ˜¯floatï¼Œä¸æ˜¯å¹³æ™‚ç†è§£çš„intä½ç½®ä¿¡æ¯ï¼Œè€Œæ˜¯ç•¶å‰æ»‘å‹•ç‹€æ…‹çš„ä¸€å€‹è¡¨ç¤ºï¼Œ
+	 * æ¯”å¦‚ç•¶æ»‘å‹•åˆ°æ­£å…¨å±æ™‚
+	 * ï¼Œpositionæ˜¯0ï¼Œè€Œå‘å·¦æ»‘å‹•ï¼Œä½¿å¾—å³é‚Šå‰›å¥½æœ‰ä¸€éƒ¨è¢«é€²å…¥å±å¹•æ™‚ï¼Œpositionæ˜¯1ï¼Œå¦‚æœå‰ä¸€å¤œå’Œä¸‹ä¸€é åŸºæœ¬å„åœ¨å±å¹•å ä¸€åŠæ™‚
+	 * ï¼Œå‰ä¸€é çš„positionæ˜¯-0.5ï¼Œå¾Œä¸€é çš„posiotnæ˜¯0.5ï¼Œæ‰€ä»¥æ ¹æ“špositionçš„å€¼æˆ‘å€‘å°±å¯ä»¥è‡ªè¡Œè¨­ç½®éœ€è¦çš„alphaï¼Œx/yä¿¡æ¯ã€‚
 	 */
 	@Override
 	public void transformPage(View view, float position) {

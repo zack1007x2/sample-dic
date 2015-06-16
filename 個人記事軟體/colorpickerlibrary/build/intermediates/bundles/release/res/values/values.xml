@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Zack/Documents/GitHub/sample/個人記事軟體/colorpickerlibrary/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="color_swatch_large">64.0dip</dimen>
+    <dimen name="color_swatch_margins_large">8.0dip</dimen>
+    <dimen name="color_swatch_margins_small">4.0dip</dimen>
+    <dimen name="color_swatch_small">48.0dip</dimen>
+    <!-- From: file:/Users/Zack/Documents/GitHub/sample/個人記事軟體/colorpickerlibrary/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="color_picker" type="id">false</item>
+    <item name="color_picker_checkmark" type="id">false</item>
+    <item name="color_picker_swatch" type="id">false</item>
+    <!-- From: file:/Users/Zack/Documents/GitHub/sample/個人記事軟體/colorpickerlibrary/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="color_picker_default_title">Select a Color</string>
+    <string name="color_swatch_description">Color %1$d</string>
+    <string name="color_swatch_description_selected">Color %1$d selected</string>
+</resources>

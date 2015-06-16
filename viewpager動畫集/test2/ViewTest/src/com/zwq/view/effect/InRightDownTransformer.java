@@ -1,4 +1,4 @@
-package com.zwq.view.effect;
+ï»¿package com.zwq.view.effect;
 
 import android.support.v4.view.ViewPager.PageTransformer;
 import android.view.View;
@@ -15,14 +15,14 @@ public class InRightDownTransformer implements PageTransformer {
 			view.setTranslationY(pageHeight * position);
 			view.setAlpha(1 + position);
 
-			// Android 3.1ÒÔÏÂ°æ±¾µÄÓÃÏÂÃæ·½·¨£»
+			// Android 3.1ä»¥ä¸‹ç‰ˆæœ¬çš„ç”¨ä¸‹é¢æ–¹æ³•ï¼›
 			// ViewHelper.setTranslationY(view, pageHeight * -position);
 			// ViewHelper.setAlpha(view, 1 + position);
 		} else if (position <= 1) {
 			view.setTranslationY(view.getHeight() * position);
 			view.setAlpha(1 - position);
 
-			// Android 3.1ÒÔÏÂ°æ±¾µÄÓÃÏÂÃæ·½·¨£»
+			// Android 3.1ä»¥ä¸‹ç‰ˆæœ¬çš„ç”¨ä¸‹é¢æ–¹æ³•ï¼›
 			// ViewHelper.setTranslationY(view, pageHeight * -position);
 			// ViewHelper.setAlpha(view, 1 - position);
 		} else {

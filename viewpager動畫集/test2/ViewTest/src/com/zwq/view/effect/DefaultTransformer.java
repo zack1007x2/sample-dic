@@ -1,4 +1,4 @@
-package com.zwq.view.effect;
+﻿package com.zwq.view.effect;
 
 import android.support.v4.view.ViewPager.PageTransformer;
 import android.view.View;

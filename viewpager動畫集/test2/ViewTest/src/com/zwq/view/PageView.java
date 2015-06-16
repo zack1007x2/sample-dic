@@ -45,12 +45,12 @@ public class PageView extends ViewPager {
 			int positionOffsetPixels) {
 		if (right != null) {
 			/**
-			 * ËõÐ¡±ÈÀý Èç¹ûÊÖÖ¸´ÓÓÒµ½×óµÄ»¬¶¯£¨ÇÐ»»µ½ºóÒ»¸ö£©£º0.0~1.0£¬¼´´ÓÒ»°ëµ½×î´ó
-			 * Èç¹ûÊÖÖ¸´Ó×óµ½ÓÒµÄ»¬¶¯£¨ÇÐ»»µ½Ç°Ò»¸ö£©£º1.0~0£¬¼´´Ó×î´óµ½Ò»°ë
+			 * ç¸®å°æ¯”ä¾‹ å¦‚æžœæ‰‹æŒ‡å¾žå³åˆ°å·¦çš„æ»‘å‹•ï¼ˆåˆ‡æ›åˆ°å¾Œä¸€å€‹ï¼‰ï¼š0.0~1.0ï¼Œå³å¾žä¸€åŠåˆ°æœ€å¤§
+			 * å¦‚æžœæ‰‹æŒ‡å¾žå·¦åˆ°å³çš„æ»‘å‹•ï¼ˆåˆ‡æ›åˆ°å‰ä¸€å€‹ï¼‰ï¼š1.0~0ï¼Œå³å¾žæœ€å¤§åˆ°ä¸€åŠ
 			 */
 			mScale = (1 - SCALE_MAX) * effectOffset + SCALE_MAX;
 			/**
-			 * xÆ«ÒÆÁ¿£º Èç¹ûÊÖÖ¸´ÓÓÒµ½×óµÄ»¬¶¯£¨ÇÐ»»µ½ºóÒ»¸ö£©£º0-720 Èç¹ûÊÖÖ¸´Ó×óµ½ÓÒµÄ»¬¶¯£¨ÇÐ»»µ½Ç°Ò»¸ö£©£º720-0
+			 * xåç§»é‡ï¼š å¦‚æžœæ‰‹æŒ‡å¾žå³åˆ°å·¦çš„æ»‘å‹•ï¼ˆåˆ‡æ›åˆ°å¾Œä¸€å€‹ï¼‰ï¼š0-720 å¦‚æžœæ‰‹æŒ‡å¾žå·¦åˆ°å³çš„æ»‘å‹•ï¼ˆåˆ‡æ›åˆ°å‰ä¸€å€‹ï¼‰ï¼š720-0
 			 */
 			mTrans = -getWidth() - getPageMargin() + positionOffsetPixels;
 			ViewHelper.setScaleX(right, mScale);

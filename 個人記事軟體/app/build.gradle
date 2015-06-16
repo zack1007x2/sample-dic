@@ -29,10 +29,10 @@ android {
         }
 
         release {
-            storeFile file("E:/Android Studio/publish/shlsy.jks")
-            storePassword "sghd1225"
-            keyAlias "shlsy"
-            keyPassword "sghd1225"
+//            storeFile file("E:/Android Studio/publish/shlsy.jks")
+//            storePassword "sghd1225"
+//            keyAlias "shlsy"
+//            keyPassword "sghd1225"
         }
     }
     buildTypes {

@@ -3,11 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Floatlibrary/Floatlibrary.iml" filepath="$PROJECT_DIR$/Floatlibrary/Floatlibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Since-master.iml" filepath="$PROJECT_DIR$/Since-master.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/colorpickerlibrary/colorpickerlibrary.iml" filepath="$PROJECT_DIR$/colorpickerlibrary/colorpickerlibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/materialList/materialList.iml" filepath="$PROJECT_DIR$/materialList/materialList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/個人記事軟體.iml" filepath="$PROJECT_DIR$/個人記事軟體.iml" />
     </modules>
   </component>
 </project>
-
