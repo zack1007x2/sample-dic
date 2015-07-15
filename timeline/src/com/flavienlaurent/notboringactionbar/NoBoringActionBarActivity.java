@@ -29,7 +29,7 @@ public class NoBoringActionBarActivity extends Activity {
     private int mHeaderHeight;
     private int mMinHeaderTranslation;
     private ListView mListView;
-    private KenBurnsView mHeaderPicture;
+//    private KenBurnsView mHeaderPicture;
     private ImageView mHeaderLogo;
     private View mHeader;
     private View mPlaceHolderView;
@@ -42,22 +42,27 @@ public class NoBoringActionBarActivity extends Activity {
     private SpannableString mSpannableString;
 
     private TypedValue mTypedValue = new TypedValue();
+    private TextView tv1,tv2,tv3,tv4,tv5,tv6,tv7,tv8,tv9,tv0;
+    
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        
 
         mSmoothInterpolator = new AccelerateDecelerateInterpolator();
         mHeaderHeight = getResources().getDimensionPixelSize(R.dimen.header_height);
         mMinHeaderTranslation = -mHeaderHeight + getActionBarHeight();
-//╡╪╬ж╪сть
+//О©╫О©╫О©╫ж╪О©╫О©╫О©╫
         setContentView(R.layout.activity_noboringactionbar);
 
         mListView = (ListView) findViewById(R.id.listview);
-        //╪сть©ь╪Ч
+        //О©╫О©╫О©╫ь©ь╪О©╫
         mHeader = findViewById(R.id.header);
-        mHeaderPicture = (KenBurnsView) findViewById(R.id.header_picture);
-        mHeaderPicture.setResourceIds(R.drawable.picture0, R.drawable.picture1);
+//        mHeaderPicture = (KenBurnsView) findViewById(R.id.header_picture);
+//        mHeaderPicture.setResourceIds(R.drawable.picture0, R.drawable.picture1);
+        
+        initTV();
         mHeaderLogo = (ImageView) findViewById(R.id.header_logo);
 
         mActionBarTitleColor = getResources().getColor(R.color.actionbar_title_color);
@@ -68,7 +73,30 @@ public class NoBoringActionBarActivity extends Activity {
         setupActionBar();
         setupListView();
     }
-//╪сть╤╞╩╜
+private void initTV() {
+	tv0 = (TextView)findViewById(R.id.textView0);
+	tv1 = (TextView)findViewById(R.id.textView1);
+	tv2 = (TextView)findViewById(R.id.textView2);
+	tv3 = (TextView)findViewById(R.id.textView3);
+	tv4 = (TextView)findViewById(R.id.textView4);
+	tv5 = (TextView)findViewById(R.id.textView5);
+	tv6 = (TextView)findViewById(R.id.textView6);
+	tv7 = (TextView)findViewById(R.id.textView7);
+	tv8 = (TextView)findViewById(R.id.textView8);
+	tv9 = (TextView)findViewById(R.id.textView9);
+	tv0.setSelected(true);
+	tv1.setSelected(true);
+	tv2.setSelected(true);
+	tv3.setSelected(true);
+	tv4.setSelected(true);
+	tv5.setSelected(true);
+	tv6.setSelected(true);
+	tv7.setSelected(true);
+	tv8.setSelected(true);
+	tv9.setSelected(true);
+		
+	}
+//О©╫О©╫О©╫ь╤О©╫О©╫О©╫
     private void setupListView() {
         ArrayList<String> FAKES = new ArrayList<String>();
         for (int i = 0; i < 1000; i++) {

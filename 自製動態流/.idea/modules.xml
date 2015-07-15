@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/timelinepage.iml" filepath="$PROJECT_DIR$/timelinepage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/自製動態流.iml" filepath="$PROJECT_DIR$/自製動態流.iml" />
     </modules>
   </component>
 </project>
