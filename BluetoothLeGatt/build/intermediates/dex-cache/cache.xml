@@ -2,6 +2,41 @@
 <items version="2" >
 
     <item
+        jar="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="61965ae058916e6a57950dd61b0164dc866af19a">
+        <dex dex="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-b3229c81b5f48add39b1bb56976a9f5dadd26b3d.jar" />
+    </item>
+    <item
+        jar="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0d6546c1c73cb64a6907f694e6c4bf4b50fefa70">
+        <dex dex="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-7e123f59e0f30af4c4271bdfa70aa479943bf69b.jar" />
+    </item>
+    <item
+        jar="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.2.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c364019628ff5b32e4930334e9db4680829f7115">
+        <dex dex="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-43b4768ca806d5739cc12cf390e34e94c4442b12.jar" />
+    </item>
+    <item
+        jar="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2d8b574cf3767ab2d21c2f4febccfab9ebe0a2ea">
+        <dex dex="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-174cbff6d5a0f7090fba51fc31eb801ead047d11.jar" />
+    </item>
+    <item
+        jar="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.2/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6e6b8034ec89e3e06b4be2af0d18fa8cc0f0a716">
+        <dex dex="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-d27240c6c740d5e8333dc7fb92337d3fe4cca037.jar" />
+    </item>
+    <item
         jar="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/libs/internal_impl-21.0.2.jar"
         jumboMode="false"
         revision="22.0.1"
@@ -9,11 +44,11 @@
         <dex dex="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-271d71faa3fc3b399c0e0a000e165879978f48ba.jar" />
     </item>
     <item
-        jar="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.2/classes.jar"
+        jar="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.3.2/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="61965ae058916e6a57950dd61b0164dc866af19a">
-        <dex dex="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-b3229c81b5f48add39b1bb56976a9f5dadd26b3d.jar" />
+        sha1="6ac34467797c5037c5bfc628da8ae35824ed61c9">
+        <dex dex="/Users/Zack/Documents/GitHub/sample/BluetoothLeGatt/Application/build/intermediates/pre-dexed/debug/classes-52ee315a930242062426f271d7c01ded5905a40a.jar" />
     </item>
     <item
         jar="/Applications/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
